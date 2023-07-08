@@ -1,0 +1,58 @@
+/* common style */
+/* *{
+    margin: 0%;
+    padding: 0%;
+} */
+:root{
+    --oringe:#FD6E0A;
+    --dark:#474747;
+    --white:#FFF;
+}
+/* navigation bar relaeted css  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.title h2{
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 800;
+}
+.title h2 span{
+    color: var(--oringe);
+}
+.menu-items ul{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    align-items: center;
+    margin: 0%;
+}
+.menu-items ul a{
+    text-decoration: none;
+    color:var(--dark);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+}
+.menu-items ul .a-2{
+    margin: 0px 30px 0px 50px;
+}
+.hire-me-btn{
+    background: var(--oringe);
+    border-radius: 5px;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    height: 64px ;
+    width: 150px ;
+    color:var(--white);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+
+}
