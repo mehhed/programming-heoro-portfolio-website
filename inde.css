@@ -9,6 +9,15 @@
     --white:#FFF;
 }
 /* navigation bar relaeted css  */
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 837px;
+    background: url('images/developer.png'), url('images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: center left, bottom right;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -54,5 +63,80 @@ nav{
     font-family: Open Sans;
     font-size: 20px;
     font-weight: 700;
-
 }
+/* banner section css  */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 90%;
+    margin-left: auto;
+}
+.banner-img,.banner-text{
+    width: 44%;
+}
+/* banner text css  */
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner-text h1{
+    color: var(--dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0%;
+}
+.banner-text h2{
+    color: var(--dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 85px;
+    font-weight: 700;
+    margin: 0%;
+    height: 116px;
+    width: 498px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.banner-text p{
+    color: var(--dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    height: 60px;
+    width: 585px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.banner-btn{
+    border-radius: 5px;
+    background-color: var(--oringe);
+    color: var(--white);
+    display: inline-block;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+}
+.banner-btn-2{
+    margin-left: 10px;
+    background-color: transparent;
+    border: 2px solid var(--oringe);
+    color: var(--oringe);
+}
+/* banner img css  */
+.banner-img img{
+    width: 584px;
+    height: 676px;
+    flex-shrink: 0;
+    margin-left: auto;
+}
+
+/* about section css  */
