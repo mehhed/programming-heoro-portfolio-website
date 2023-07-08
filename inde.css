@@ -124,6 +124,7 @@ nav{
     font-family: Open Sans;
     font-size: 20px;
     font-weight: 700;
+    border: none;
 }
 .banner-btn-2{
     margin-left: 10px;
@@ -198,4 +199,18 @@ nav{
     display: flex;
     justify-content: space-between;
     gap: 20px;
+}
+
+/* footer css  */
+footer{
+    padding: 70px;
+    background-color: #FFF8F3;
+}
+footer input[type="text"], input[type="email"], textarea{
+    width: 100%;
+    margin: 10px 0px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 16px;
 }
