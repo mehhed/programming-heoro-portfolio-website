@@ -214,3 +214,67 @@ footer input[type="text"], input[type="email"], textarea{
     padding: 15px;
     font-size: 16px;
 }
+
+
+
+
+
+
+
+/* responsive css */
+@media screen and (max-width:576px) {
+    .i-do {
+    padding: 0px 15px 50px 15px;
+}
+.i-do div{
+    flex-direction: column;
+}
+.education-experiance {
+    flex-direction: column;
+}
+.i-do-inner p {
+    padding: 10px 10px !important;
+}
+footer div {
+    flex-wrap: wrap;
+}
+.about {
+    padding: 10px;
+}
+.about-inner {
+    width: 90%;
+    padding: 1px 10px 10px;
+}
+.about-inner > div {
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+.banner {
+    justify-content: end;
+    flex-direction: column-reverse;
+    width: 90%;
+    margin-left: inherit;
+    margin: auto;
+}
+.banner-img, .banner-text {
+    width: 90%;
+}
+.banner-img img {
+    width: 67%;
+    height: 100%;
+}
+.banner-text p {
+    width: inherit;
+}
+.banner-text h2 {
+    font-size: 40px;
+    width: inherit;
+}
+.banner-text h1 {
+    font-size: 24px;
+}
+.banner-img {
+    text-align: right;
+}
+
+}
